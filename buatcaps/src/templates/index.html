@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta name="Aps-Restaurant" content="Aneka Restaurant">
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to Content</a>
+    <header>
+        <div class="app-bar">
+            <div class="app-bar-logo">
+                <img src="./images/Logo.jpg" alt="Restaurant Catalog Logo">
+                <span>Restaurant Catalog</span>
+            </div>
+            <nav class="app-bar-nav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Favorite</a></li>
+                    <li><a href="https://x.com/Rian__F1">About Us</a></li>
+                </ul>
+            </nav>
+            <button class="menu-icon" id="menu-icon" aria-label="Open menu">&#9776;</button>
+        </div>
+        <aside class="drawer" id="drawer" aria-hidden="true">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Favorite</a></li>
+                    <li><a href="https://x.com/Rian__F1">About Us</a></li>
+                </ul>
+            </nav>
+        </aside>
+    
+        <section class="hero"> 
+            <div class="hero-inner">
+                <h1>Welcome to Restaurant Catalog</h1>
+                <p>Discover the best restaurants around you</p>
+            </div>
+        </section>
+    </header>
+
+    <main id="main-content">
+        <section id="restaurant-list">
+            <!-- Restaurant list will be populated here -->
+        </section>
+        <section id="restaurant-detail" class="hidden">
+            <!-- Restaurant detail will be populated here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Restaurant Catalog</p>
+    </footer>
+
+    <script src="../scripts/index.js"></script>
+</body>
+</html>
